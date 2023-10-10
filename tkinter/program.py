@@ -1,7 +1,9 @@
-from tkinter import *
+from customtkinter import *
 
-root = Tk()
-root.title('model')
+app = CTk()
+app.geometry('500x400')
+app.title('Model')
+set_appearance_mode('light')
 
-root.geometry('500x500')
-root.mainloop()
+
+app.mainloop()
