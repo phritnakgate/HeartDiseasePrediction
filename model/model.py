@@ -104,4 +104,4 @@ print(
     f"Accuracy of SVM = {svm_score}\nAccuracy of Random Forest = {rf_score}\nAccuracy of Logistic Regression = {lgr_score}")
 
 # ================4. EXPORT MODEL================= #
-joblib.dump(rf, "my_ml_model_eiei.joblib")
+#joblib.dump(rf, "my_ml_model_eiei.joblib")
