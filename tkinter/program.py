@@ -2,12 +2,11 @@ import customtkinter as ctk
 import tkinter as tk
 import joblib
 import pandas as pd
-import numpy as np
 
 ctk.set_appearance_mode('Scolumnstem')
 ctk.set_default_color_theme('green')
 
-appWidth, appHeight = 1100, 600
+appWidth, appHeight = 1200, 600
 
 heart_prediction = joblib.load('my_ml_model_eiei.joblib')
 
